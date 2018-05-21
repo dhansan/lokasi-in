@@ -355,6 +355,10 @@ img {
   height: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /***************
 //  variable  //
 ***************/
@@ -569,6 +573,11 @@ img {
     content: "";
     clear: both;
     display: table;
+  }
+
+.row--gutters > div {
+    padding-right: 65px;
+    box-sizing: border-box;
   }
 
 .row__4 {
