@@ -560,3 +560,23 @@ img {
 .headline--b-margin-large {
     margin-bottom: 1.6em;
   }
+
+/*************
+//  narrow  //
+*************/
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row__4 {
+    float: left;
+    width: 33.33%;
+  }
+
+.row__8 {
+    float: left;
+    width: 66.66%;
+  }
