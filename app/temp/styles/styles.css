@@ -341,6 +341,10 @@ template {
   display: none;
 }
 
+/*************
+//  global  //
+*************/
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
@@ -350,6 +354,14 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/***************
+//  variable  //
+***************/
+
+/*************
+//  mixin   //
+*************/
 
 /*************
 //   hero   //
@@ -423,7 +435,7 @@ img {
   }
 
 /*************
-//  Button  //
+//  button  //
 *************/
 
 .btn {
@@ -450,7 +462,7 @@ img {
   }
 
 /*****************
-// Wrapper hero //
+// wrapper hero //
 *****************/
 
 .wrapper {
@@ -472,4 +484,48 @@ img {
 .page-section--blue {
     background-color: #2f5572;
     color: #FFF;
+  }
+
+/***************
+//  headline  //
+***************/
+
+.headline {
+  font-weight: 300;
+  font-size: 2.875rem;
+  color: #2f5572;
+}
+
+.headline--centered {
+    text-align: center;
+  }
+
+.headline--orange {
+    color: #d59541;
+  }
+
+.headline--small {
+    font-size: 1.875rem;
+  }
+
+.headline--narrow {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.headline--light {
+    font-weight: 100;
+  }
+
+.headline strong {
+    font-weight: 400;
+  }
+
+.headline--b-margin-small {
+    margin-bottom: .5em;
+  }
+
+.headline--b-margin-large {
+    margin-bottom: 1.6em;
   }
