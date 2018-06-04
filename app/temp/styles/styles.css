@@ -691,6 +691,7 @@ a {
 .feature-item {
   position: relative;
   padding-left: 94px;
+  padding-bottom: 2.5rem;
 }
 
 .feature-item__icon {
